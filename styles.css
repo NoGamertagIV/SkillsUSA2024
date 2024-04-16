@@ -4,10 +4,17 @@
     padding: 0;
 }
 
+header {
+    color: #060270;
+    background-color: #DFC57B;
+}
+
+
+
 .nav {
     display: flex;
-    justify-content: space-around;
-    justify-self: center;align-items: center;
+    justify-content: center;
+    align-items:  center;
     text-align: center;
     margin: 10px 0;
     padding: 0 10px;
@@ -50,6 +57,27 @@
     
 }
 
+.btn {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #060270;
+    color: #DFC57B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .partners-logo {
     align-items: center;
     width: 150px;
@@ -60,6 +88,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color:#060270;
+    background-color: #DFC57b;
+
 }
 
 .footer-logo-and-title {
@@ -72,5 +103,46 @@
     margin: 20px 0;
 }
 
+.bwdog {
+    height:300px;
+    width: 300px;
+    display: block;
+    margin: 40px auto;
+    border-radius: 10px;
+
+}
+
+.wdog {
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+}
+
+.dogs {
+    display: flex;
+}
+
+h1, .gold {
+    color: #060270;
+}
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+.donate, .product-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, .magic {
+    margin: 15px;
+}
 
 
